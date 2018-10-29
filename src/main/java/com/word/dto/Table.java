@@ -15,6 +15,9 @@ public class Table {
      * 小标题
      */
     private String tag;
+
+
+    private String tagNew;
     /**
      * url
      */
@@ -146,5 +149,13 @@ public class Table {
 
     public void setRequestForm(String requestForm) {
         this.requestForm = requestForm;
+    }
+
+    public String getTagNew() {
+        return tagNew;
+    }
+
+    public void setTagNew(String tagNew) {
+        this.tagNew = tagNew;
     }
 }
